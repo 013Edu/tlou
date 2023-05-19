@@ -1,0 +1,28 @@
+import { FaCircle } from 'react-icons/fa';
+
+import './styles.css'
+
+function FirstSection() {
+  return(
+    <section className="h-screen flex justify-around items-center bg-black sm:flex-row min-[320px]:text-center border-t-2 min-[320px]:flex-col">
+        <div className='p-12'>
+           <div className='flex items-center gap-3 min-[320px]:justify-center'>
+            <FaCircle color='#fff' />
+            <h3 className='text-white font-medium text-2xl sm:text-2xl min-[320px]:text-sm'>Naughty Dog Interactive Entertainment</h3>
+           </div>
+           <h2 className='text-white font-extrabold sm:text-5xl my-6 min-[320px]:text-4xl'>Embarque com<br/> Joel e Ellie em<br/> uma jornada épica.</h2>
+           <p className='text-white text-lg max-w-4xl mb-6'>Em uma civilização devastada, em que infectados e sobreviventes veteranos estão à solta, Joel, um protagonista abatido, é contratado para tirar uma garota de 14 anos, Ellie, de uma zona de quarentena militar. No entanto, o que começa como um pequeno serviço se transforma em uma jornada brutal através do país.</p>
+            <div className='flex gap-2 min-[320px]:justify-center'>
+                <img className='w-21 h-20' src="data:image/png;base64,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" alt="logo da empresa NaughtyDog" />
+                <img className='w-21 h-20' src="https://ovicio.com.br/wp-content/uploads/2023/02/20230222-ovicio-playstation-logo-compostior.jpg" alt="logo da PlayStation" />
+            </div>
+        </div>
+
+        <div className='px-6 flex sm:flex sm:w-6/12 min-[320px]:justify-center min-[320px]:hidden'>
+            <img className='h-full w-11/12 img' src="https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2020/05/10214429/the-last-of-us-remastered-full-story-recap-so-far-1.original.jpg" alt="joel e ellie" />
+        </div>
+    </section>
+  )
+}
+
+export default FirstSection;

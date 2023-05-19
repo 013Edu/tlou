@@ -1,10 +1,15 @@
+import FirstSection from "./components/FirstSection"
+import Header from "./components/Header"
+import SecondSection from "./components/SecondSection"
 
 function App() {
 
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Header />
+      <FirstSection />
+      <SecondSection />
+    </>
   )
 }
 
