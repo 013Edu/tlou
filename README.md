@@ -2,7 +2,7 @@
 
 ## Projeto pessoal de um fã que ama essa franquia de jogos, aqui estã um site com algumas informações sobre o jogo que futuramente vai ter novas versões, ele estã bem atrativo e responsivo, espero que gostem!
 
-## Tecnologias usadasÇ
+## Tecnologias usadas
 - React
 - Vite
 - tailwind CSS
